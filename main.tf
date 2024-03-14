@@ -21,6 +21,11 @@ resource "random_pet" "some_value" {
   length = 4
 }
 
+resource "random_pet" "another_value" {
+  count  = 3
+  length = 4
+}
+
 output "random_value" {
   value = random_pet.some_value.*.id
 }
