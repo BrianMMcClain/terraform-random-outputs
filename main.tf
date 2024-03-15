@@ -22,7 +22,6 @@ resource "random_pet" "some_value" {
 }
 
 resource "random_pet" "another_value" {
-  count  = 3
   length = 4
 }
 
