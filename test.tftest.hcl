@@ -3,7 +3,7 @@
 
 variables {
   strings = 3
-  length = 4
+  length  = 4
 }
 
 run "default_values" {
