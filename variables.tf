@@ -7,7 +7,3 @@ variable "length" {
   type        = number
   description = "Length of each random string"
 }
-
-variable "newinput" {
-  type = string
-}
